@@ -12,7 +12,7 @@ return [
     'address' => [
         'label' => '1200 Broad Street',
         'locality' => 'Victoria, BC',
-        'maps_url' => 'https://www.google.com/maps/search/?api=1&query=1200+View+Street+Victoria+BC',
+        'maps_url' => 'https://www.google.com/maps/search/?api=1&query=Kyoto+Garden+Japanese+Tea+House&query_place_id=ChIJpzOOgOZ1j1QR45td35FduY8',
     ],
 
     'contact' => [
@@ -37,7 +37,7 @@ return [
 
     'google' => [
         'place_id' => 'ChIJpzOOgOZ1j1QR45td35FduY8',
-        'reviews_url' => 'https://www.google.com/maps/place/?q=place_id:ChIJpzOOgOZ1j1QR45td35FduY8',
+        'reviews_url' => 'https://www.google.com/maps/search/?api=1&query=Kyoto+Garden+Japanese+Tea+House&query_place_id=ChIJpzOOgOZ1j1QR45td35FduY8',
     ],
 
     'features' => [

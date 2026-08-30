@@ -19,11 +19,11 @@ $facebookPluginUrl = $facebookPageUrl === '' ? '' : 'https://www.facebook.com/pl
     'show_facepile' => 'false',
 ], '', '&', PHP_QUERY_RFC3986);
 ?>
+<div class="top-bar" role="status">This website serves as a placeholder, pending a gift transfer of domains to the local business.</div>
 <main id="main">
     <section class="hero" aria-labelledby="hero-title">
         <div class="hero-panel">
             <header class="site-header">
-                <div class="top-bar">This website serves as a placeholder, pending a gift transfer of domains to the local business.</div>
                 <a class="brand" href="/" aria-label="<?= e($site['name']) ?> home">
                     <img src="/assets/images/kyoto-garden-logo.jpg" alt="<?= e($site['name']) ?>, Victoria BC">
                 </a>

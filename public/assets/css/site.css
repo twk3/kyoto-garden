@@ -35,7 +35,7 @@ img {
 
 .skip-link {
     position: fixed;
-    z-index: 100;
+    z-index: 1100;
     top: 0.75rem;
     left: 0.75rem;
     padding: 0.6rem 0.9rem;
@@ -46,22 +46,18 @@ img {
 
 
 .top-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: var(--ink);
-    color: #FFF;
-    text-align: center;
-    padding: 10px 0;
-    font-weight: bold;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
     z-index: 1000;
-}
-
-.top-bar p {
-    margin: 0;
-    font-size: 14px;
+    top: 0;
+    width: 100%;
+    padding: 0.65rem clamp(1rem, 3vw, 2rem);
+    color: #fff;
+    background-color: var(--ink);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 0.78rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.35;
 }
 
 .skip-link:focus { transform: translateY(0); }
