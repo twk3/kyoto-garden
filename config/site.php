@@ -10,7 +10,7 @@ return [
     'announcement' => 'Japanese Tea House · Victoria, BC',
 
     'address' => [
-        'label' => '1200 View Street',
+        'label' => '1200 Broad Street',
         'locality' => 'Victoria, BC',
         'maps_url' => 'https://www.google.com/maps/search/?api=1&query=1200+View+Street+Victoria+BC',
     ],
